@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VANILLA JS TODO APP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>KVNG SNEY'S TODO LIST</h1>
+    </header>
+    <form>
+      <input type="text" class="todo-input" placeholder="Enter New Todo Item" />
+      <button class="todo-button" type="submit">
+        Add
+      </button>
+      <div class="select">
+        <select name="todos" class="filter-todo">
+          <option value="all">ALL</option>
+          <option value="completed">Completed</option>
+          <option value="uncompleted">UnCompleted</option>
+        </select>
+      </div>
+    </form>
+    <div class="todo-container">
+      <ul class="todo-list"></ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
